@@ -1,0 +1,39 @@
+.customer-list {
+  font-family: sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.customer-list h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.customer-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.customer-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.blue-box {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(2, 154, 205);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 10px;
+  border-radius: 5px;
+}
